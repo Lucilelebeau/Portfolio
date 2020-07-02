@@ -32,6 +32,11 @@ header a {
     position: initial;
     padding-top: 15px;
   }
+  .navbar_right a {
+    color: dimgray;
+    background-color: black;
+    padding: 20px !important;
+  }
 }
 
 #nav_name {
@@ -97,7 +102,7 @@ header a {
 }
 
 #section_A_PROPOS {
-  background-color: #424242;
+  background-color: #242424;
   color: #cecdcd;
 }
 
@@ -146,6 +151,12 @@ header a {
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+@media all and (max-width: 1000px) {
+  .photo_lign li {
+    margin-left: 25%;
+  }
 }
 
 .photo_lign img {
@@ -538,7 +549,7 @@ time {
 
 footer {
   text-align: center;
-  height: 200px;
+  height: 250px;
   background-color: black;
   color: white;
   font-family: 'News Cycle', sans-serif;
@@ -547,9 +558,11 @@ footer {
 
 footer p {
   padding-top: 2em;
+  margin-bottom: 0;
 }
 
 footer img {
+  margin-top: 30px;
   border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
