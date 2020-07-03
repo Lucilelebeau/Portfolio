@@ -17,20 +17,19 @@ header{
         height: 70px;
         background-color: black;
     }
-    
-    a{
-        color: rgb(105, 105, 105);
-        padding-right: 15px;
-    }
 }
 .navbar_right{
+    a{
+        color: rgb(170, 170, 170) !important;
+        font-weight: 400;
+    }
     position: absolute;
     right:10%;
     @media all and (max-width: 1000px){
         position: initial;
         padding-top:15px;
         a{
-            color: rgb(105, 105, 105);
+            color: rgb(170, 170, 170) !important ;
             background-color: black;
             padding: 20px !important;
         }
@@ -50,7 +49,7 @@ header{
     background-image: url("../img/pissenlit.jpg");
     height: 950px;
     text-align: center;
-    color: rgb(66, 66, 66);
+    color: rgb(32, 32, 32);
     background-size: cover;
     background-position: center center;
     
