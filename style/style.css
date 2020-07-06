@@ -153,9 +153,34 @@ header .navbar {
   padding: 0;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1900px) {
   .photo_lign li {
-    margin-left: 25%;
+    margin-left: 15%;
+  }
+}
+
+@media all and (max-width: 1410px) {
+  .photo_lign li {
+    margin-left: 10%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .photo_lign li {
+    margin-left: 8%;
+  }
+}
+
+@media all and (max-width: 1112px) {
+  .photo_lign li {
+    margin-left: 30%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .photo_lign li {
+    margin-left: 13%;
+    margin-right: 3em;
   }
 }
 
@@ -197,6 +222,10 @@ header .navbar {
     margin-left: 1em;
     margin-right: 1em;
   }
+}
+
+.quality img {
+  opacity: 60%;
 }
 
 .quality p {
