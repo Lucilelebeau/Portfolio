@@ -366,12 +366,11 @@ time {
 #section_COMPETENCES ul {
   list-style: none;
   text-align: center;
+  margin-bottom: 3em;
 }
 
 #section_COMPETENCES li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -381,6 +380,10 @@ time {
     margin-left: 1em;
     margin-right: 1em;
   }
+}
+
+#section_COMPETENCES p {
+  font-size: 20px;
 }
 
 .computer_div {
